@@ -5,7 +5,7 @@ You find here the  implementation of our Quality Framework for the RDF summaries
 For the Instance level, we  compute if the existing instances are covered (i.e. can be retrieved) and in what degree by the proposed summary. Again we define and compute its precision, recall and F-measure against the data contained in the original KB. It outputs the values for the different metrics in an automated fashion and allows computing F-measures where applicable.
 
 ## Setup:
-Building this project requires the Apache Jena. All you need is in the lib folder, thus you should add all the jar files in the lib folder to the project build path. If you use  eclipse you need only to download the project and then import it and the all things will be fixed.
+Building this project requires the Apache Jena. All you need is in the lib folder, thus you should add all the jar files in the lib folder to the project build path. If you use  eclipse you need only to download the project and then import it and the all things will be ok.
 
 ## Running the Project:
 Before running the project you need mapping your summary graph to a text file where each line of this file represents pattern. Each line should have the following format: 
@@ -37,7 +37,7 @@ Where the two following tables describe the two necessary property and instance 
 6| exhibited 
 7| Museum
 
-| Mapid | Iinstance URI        
+| Mapid | Instance URI        
 | -------- |-------------
 1 | Picasso  
 2 | Rembrandt
